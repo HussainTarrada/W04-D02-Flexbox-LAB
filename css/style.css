@@ -35,6 +35,13 @@
     align-items: center;
 }
 
+#subnav{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 .card{
     display: flex;
     justify-content: space-between;
@@ -117,10 +124,12 @@
   .card-footer {
     font-size: 14px;
     display: flex;
+    justify-content: space-between;
   }
   
   .card-footer * {
     margin-top: 8px;
+    align-items: end;
   }
   
   #subnav {
